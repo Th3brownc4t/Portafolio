@@ -5,7 +5,8 @@ import Datos from './Componentes/Datos';
 import Imagen2 from "./Images/dibujo.jpg"
 import Footer from './Componentes/Footer';
 import UncontrolledExample from './Componentes/Carrusel';
-import Certificados from './Componentes/Aptitudes';
+import Certificados from './Componentes/Certificado';
+import Stack from './Componentes/Stack';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
         <Certificados>
           
         </Certificados>
+        <Stack>
+          
+        </Stack>
       </div>
       <Footer>
 

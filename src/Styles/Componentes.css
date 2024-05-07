@@ -3,9 +3,14 @@
     .Header{
         justify-content: center !important;
     }
+    .Sobremi{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 .Loguito{
-    width: 100px;
+    width: 130px;
     height: 100%;
 }
 .Header{
@@ -119,4 +124,18 @@
     align-items:center ;
     box-shadow:3px 3px 10px black ;
     background-color: white;
+}
+
+/* ///////Info Stack ///////*/
+
+.Logo{
+    width: 200px;
+    height: 100%;
+}
+.Softwares{
+    width: 150px;
+    height: 100%;
+}
+.Gapeo{
+    gap: 5rem;
 }
