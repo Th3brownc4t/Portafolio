@@ -15,11 +15,11 @@ const Footer = () => {
                 <i className="fa-brands fa-linkedin" ></i>
                 </a>
                 <a href="https://github.com/Th3brownc4t" className='d-flex flex-column align-items-center text-decoration-none text-white fw-bold' >
-                <p>LinkedIn</p>
+                <p>Github</p>
                 <i className="fa-brands fa-square-github"></i>
                 </a>
                 <a href="https://www.behance.net/deinerperez4" className='d-flex flex-column align-items-center text-decoration-none text-white fw-bold'>
-                <p>LinkedIn</p>
+                <p>Behance</p>
                 <i className="fa-brands fa-square-behance"></i>
                 </a>
             </div>
