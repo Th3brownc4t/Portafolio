@@ -12,6 +12,19 @@
         height: 100%;
         width: 100% !important;
     }
+    .Menu{
+        grid-template-columns: 1fr !important;
+        margin: 1.5rem 0 1.5rem 0;
+        justify-content: center;
+        justify-items: center;
+    }
+    .Header{
+        flex-direction: column !important;
+        padding: 0 !important;
+    }
+    .Hambur{
+        margin: 1rem 0;
+    }
 
 }
 .Loguito{
@@ -26,18 +39,17 @@
     align-items: center;
     width: 100%;
 }
-.Centro{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
 .Menu{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 1.5rem 0 1.5rem 0;
     justify-content: center;
     justify-items: center;
-    
+}
+.Hambur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Menu a{
     color: #0099ff;
@@ -104,6 +116,10 @@
     gap: 4rem;
     margin-top: 1rem;
 }
+.Loguito:hover{
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
 .Logos i{
     font-size: 36pt;
     color: #ffffff;
@@ -143,12 +159,27 @@
     box-shadow:3px 3px 10px black ;
     background-color: white;
 }
+.Certi:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+    cursor: pointer;
+}
 
 /* ///////Info Stack ///////*/
 
 .Logo{
     width: 200px;
     height: 100%;
+}
+.Logo:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.Softwares:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    cursor: pointer;
 }
 .Softwares{
     width: 150px;
@@ -182,18 +213,42 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.Video{
+    width: auto !important;
+    max-width: 640px;
+    height: auto !important;
+}
 .Videito{
     width: 400px;
     height: 260px;
     border-radius: 20px;
 }
+.Videito:hover{
+    transform: scale(0.95);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Videito:active{
+    transform: scale(1);
+    transition: 0s;
+}
 .Cards{
     border-radius: 20px;
     border: solid black 3px;
-    height: 500px;
-    padding: 0 1rem;
+    max-height: 520px;
+    height: auto;
+    width: auto;
+    padding: 1rem;
 }
 
-.Github{
+.Icono{
     font-size: 48pt;
+    color: #0099ff;
+}
+.tamaño{
+    width: auto;
+}
+.img-hover:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
 }

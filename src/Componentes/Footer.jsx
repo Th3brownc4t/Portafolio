@@ -1,27 +1,28 @@
 import React from 'react'
 import Logo from '../Images/Mesa de trabajo 6.png'
 import '../Styles/Componentes.css'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
     return (
         <div className='Footer'>
-            <a href="">
-            <img src={Logo} alt="Logo" />
-            </a>
+            <Link to="/" className='Loguito'>
+                <img src={Logo} alt="Logo" />
+            </Link>
             <div className='Logos'>
-                <a href="https://www.linkedin.com/in/deiner-perez-a67861285/" className='d-flex flex-column align-items-center text-decoration-none text-white fw-bold'>
-                <p>LinkedIn</p>
-                <i className="fa-brands fa-linkedin" ></i>
-                </a>
-                <a href="https://github.com/Th3brownc4t" className='d-flex flex-column align-items-center text-decoration-none text-white fw-bold' >
-                <p>Github</p>
-                <i className="fa-brands fa-square-github"></i>
-                </a>
-                <a href="https://www.behance.net/deinerperez4" className='d-flex flex-column align-items-center text-decoration-none text-white fw-bold'>
-                <p>Behance</p>
-                <i className="fa-brands fa-square-behance"></i>
-                </a>
+                <Link to="https://www.linkedin.com/in/deiner-perez-a67861285/" target='_blank' className='Loguito d-flex flex-column align-items-center text-decoration-none text-white fw-bold'>
+                    <i className="fa-brands fa-linkedin" ></i>
+                    <p className='fs-5'>LinkedIn</p>
+                </Link>
+                <Link to="https://github.com/Th3brownc4t" target='_blank' className='Loguito d-flex flex-column align-items-center text-decoration-none text-white fw-bold' >
+                    <i className="fa-brands fa-square-github"></i>
+                    <p className='fs-5'>Github</p>
+                </Link>
+                <Link to="https://www.behance.net/deinerperez4" target='_blank' className='Loguito d-flex flex-column align-items-center text-decoration-none text-white fw-bold'>
+                    <i className="fa-brands fa-square-behance"></i>
+                    <p className='fs-5'>Behance</p>
+                </Link>
             </div>
         </div>
     )

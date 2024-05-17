@@ -3,7 +3,7 @@ import Logo from '../Images/Mesa de trabajo 5.png'
 import "../Styles/Componentes.css"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -12,12 +12,12 @@ const Header = () => {
       <Navbar sticky="top" expand="lg" className='Header p-3 ps-5 pt-2'>
         <div>
           <Navbar.Brand>
-            <Link to="/" target='_blank'>
+            <Link to="/">
             <img src={Logo} className="Loguito" alt="logo" />
             </Link>
           </Navbar.Brand>
         </div>
-        <div>
+        <div className='Hambur'>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='Centro' />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto Menu">
