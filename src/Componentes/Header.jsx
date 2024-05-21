@@ -5,11 +5,30 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
+window.addEventListener("scroll", function () {
+  menu();
+})
+
+let Ubicacion = window.scrollY;
+
+function menu() {
+  let desplazamientoActual = window.scrollY;
+  if (Ubicacion >= desplazamientoActual) {
+    document.getElementById("Header").style.top = "0";
+  } else {
+    document.getElementById("Header").style.top = "-100px"
+  }
+  console.log(window.pageYOffset);
+  /* console.log(desplazamientoActual); */
+  Ubicacion =  desplazamientoActual;
+}
+
+
 
 const Header = () => {
   return (
     <div>
-      <Navbar sticky="top" expand="lg" className='Header p-3 ps-5 pt-2'>
+      <Navbar expand="lg" id='Header' className='Header p-3 ps-5 pt-2'>
         <div>
           <Navbar.Brand>
             <Link to="/">
@@ -29,16 +48,6 @@ const Header = () => {
         </div>
       </Navbar>
     </div>
-    /* <div className='Header p-4 ps-5'>
-      <a href="#">
-        <img src={Logo} className="" alt="logo" />
-      </a>
-      <div className='Menu'>
-        <a href="#">INICIO</a>
-        <a href="#">PORTAFOLIO</a>
-        <a href="#">SOBRE MÍ</a>
-      </div>
-    </div> */
   )
 }
 

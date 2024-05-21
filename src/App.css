@@ -3,6 +3,7 @@
   width: auto;
   margin: 0 auto;
   background-color: rgb(255, 255, 255);
+  margin-top: 9rem;
 }
 body{
   background-color: #ffffff;
@@ -13,16 +14,8 @@ p{
 .Cuerpo{
   padding: 0 4rem;
 }
-.Sobre{
-  display: flex;
-  justify-content: center;
-  margin-bottom:1.5rem ;
-}
 h2{
-  font-size: 36pt;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
 }
 .Boton_porta{
   font-size: 32pt;

@@ -9,7 +9,7 @@ import Stack from './Stack';
 function Home() {
     return (
         <div>
-            <Header className="sticky-top">
+            <Header>
 
             </Header>
             <div className="App">

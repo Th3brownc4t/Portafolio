@@ -1,8 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Adobe from "../Images/Adobe Creative Cloud.png"
 import Photo from "../Images/Logos-aptitud.png"
 import Illus from "../Images/Logos-aptitud 2.png"
 import Premi from "../Images/Logos-aptitud 3.png"

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function Card(props) {
     return (
-        <div className='d-flex justify-content-center'>
-            <div className='Cards pb-3'>
+        <div className='d-flex justify-content-center Cards'>
+            <div className='pb-3'>
                 <div className=''>
                     <h3 className='text-center my-2'>{props.Nombre}</h3>
                     <Link to={props.Link} target='_blank'>
@@ -13,7 +13,7 @@ function Card(props) {
                     </Link>
                     {props.Tecnologias1}
                     {props.Tecnologias2}
-                    <div className='d-flex justify-content-center gap-5 mt-4'>
+                    <div className='d-flex justify-content-center gap-2 mt-4'>
                         <Link to={props.Git} target='_blank' className='img-hover Icono d-flex flex-column align-items-center text-decoration-none fw-bold' >
                             <i className="fa-brands fa-square-github"></i>
                         </Link>

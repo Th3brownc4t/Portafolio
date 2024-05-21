@@ -1,13 +1,15 @@
 /* ///////Info Header ///////*/
 @media screen and (max-width:768px) {
-    .Header{
-        justify-content: center !important;
-    }
     .Sobremi{
         display: flex;
         flex-direction: column;
     }
     .Carru{
+        border-radius: 30px;
+        height: 100%;
+        width: 100% !important;
+    }
+    .Carru-2{
         border-radius: 30px;
         height: 100%;
         width: 100% !important;
@@ -21,23 +23,44 @@
     .Header{
         flex-direction: column !important;
         padding: 0 !important;
+        justify-content: center !important;
     }
     .Hambur{
         margin: 1rem 0;
     }
-
+    .Cuerpo{
+        padding: 0 2rem !important;
+    }
+    .App{
+        margin-top: 12rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .Certi{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Certificado{
+        margin: 0 !important;
+    }
 }
 .Loguito{
     width: 130px;
     height: 100%;
 }
 .Header{
-    background-color: #e4e4e4;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
     width: 100%;
+    border-bottom: solid 1px #d7d7d7;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    transition: top 0.4s ease-out;
 }
 .Menu{
     display: grid;
@@ -115,6 +138,7 @@
     align-items: center;
     gap: 4rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
 }
 .Loguito:hover{
     transform: scale(1.08);
@@ -142,6 +166,11 @@
     border-radius: 30px;
     height: 100%;
     width: 85%;
+}
+.Carru-2{
+    border-radius: 30px;
+    height: 100%;
+    width: 60%;
 }
 
 .Certificado{
@@ -219,9 +248,8 @@
     height: auto !important;
 }
 .Videito{
-    width: 400px;
-    height: 260px;
-    border-radius: 20px;
+    max-width: 400px ;
+    width: 100%;
 }
 .Videito:hover{
     transform: scale(0.95);
@@ -235,18 +263,14 @@
 .Cards{
     border-radius: 20px;
     border: solid black 3px;
-    max-height: 520px;
-    height: auto;
-    width: auto;
     padding: 1rem;
+    width: auto !important;
+    margin: 0 1rem;
 }
 
 .Icono{
     font-size: 48pt;
     color: #0099ff;
-}
-.tamaño{
-    width: auto;
 }
 .img-hover:hover{
     transition: all 0.5s;
