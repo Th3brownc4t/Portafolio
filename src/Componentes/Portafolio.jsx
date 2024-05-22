@@ -37,28 +37,28 @@ function Portafolio() {
               <h3>Politécnico Grancolombiano</h3>
               <p>Durante mi estancia de 6 meses en el Politécnico Grancolombiano como asistente de comunicador externo, realicé piezas para la página web del Poli y sus redes sociales, algunas de estas son:</p>
               <Carousel className='mt-4 Carru-2 mx-auto'>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Poli1}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Poli2}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                     <img
                       className="d-block w-100 Carru"
                       src={Poli3}
                       alt="First slide"
                     />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Poli4}
@@ -72,21 +72,21 @@ function Portafolio() {
               <h3>Restocked</h3>
               <p>Al día de hoy sigo trabajando con la empresa Restocked realizando piezas para web, videos y edición de estos y mucho más, algunos de estos son:</p>
               <Carousel className='mt-4 Carru-2 w-50 mx-auto'>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Rstk}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Rstk2}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                     <img
                       className="d-block w-100 Carru"
                       src={Rstk3}
@@ -100,21 +100,21 @@ function Portafolio() {
               <h3>Oni Kohi</h3>
               <p>Esto fue un pequeño proyecto de café japonés realizado por un compañero y yo, en el cual se realizaron mockups, pósteres y una marca,  los resultados fueron:</p>
               <Carousel className='mt-4 Carru-2 w-50 mx-auto'>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Mockup}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                   <img
                     className="d-block w-100 Carru"
                     src={Mockup2}
                     alt="First slide"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={null}>
                     <img
                       className="d-block w-100 Carru"
                       src={Mockup3}
